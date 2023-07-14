@@ -1,4 +1,4 @@
-# nex-handheldarcade
+#     gnav-handheldhacker
 Handheld version of https://github.com/SP-Nex/nex-arcade
 
 I just wanted to make a little cute handheld version of this for my server.
