@@ -1,11 +1,12 @@
-# nex-arcade
-Minigame practicing script
+# nex-handheldarcade
+Handheld version of https://github.com/SP-Nex/nex-arcade
 
+I just wanted to make a little cute handheld version of this for my server.
 
-***This is a pretty simple script I made in order to let the players of my server practice hacks inside of the arcade, you can easily change where the hacks are done in nex-arcade/client/cl_target***
-
-**Showcase: (https://streamable.com/h4mqnb)** 
-
+## Add to `qb-core/shared/items.lua`
+```lua
+['hackerboy']                	 = {['name'] = 'hackerboy',               	['label'] = 'Weird Game Console',             ['weight'] = 1,       ['type'] = 'item',      ['image'] = 'hackerboy.png',        	['unique'] = false,     ['useable'] = true,     ['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = ''},
+```
 
 **REQUIREMENTS:**
 -----------------
